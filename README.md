@@ -1,7 +1,7 @@
 Combining HTML Hypermedia APIs and Adaptive Web Design
 ======================================================
 
-Thoughts, Combining HTML Hypermedia APIs and Adaptive Web Design.
+Thoughts, issues and ideas on combining HTML Hypermedia APIs and Adaptive Web Design.
 
 NB. Let's start with having everything in the README and when structure is found we refactor.
 
