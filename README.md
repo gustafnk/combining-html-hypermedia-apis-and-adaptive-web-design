@@ -23,6 +23,16 @@ Assumption: humans browse on www.yourdomain.com, machines browse on api.yourdoma
 Here, another option is to take advantage of the different contexts. For example, returning a 201 Created for a machine, but redirecting a human to some main-page.
 
 
+Client support for HTML
+-----------------------
+There are several HTML parser for all possible application platforms out there. I think that parsers with CSS3 syntax (or, think jQuery selector).
+Here are some I've found:
+ - .NET: https://github.com/jamietre/CsQuery
+ - Java: http://jsoup.org/cookbook/extracting-data/selector-syntax
+ - iOS: Not any known libraries.. (?)
+ - Ruby: https://www.engineyard.com/blog/2010/getting-started-with-nokogiri/
+ - node: https://github.com/MatthewMueller/cheerio
+
 Resouces
 --------
 http://www.jayway.com/2012/08/01/combining-html-hypermedia-apis-and-adaptive-web-design/ (lots of links here)
