@@ -4,10 +4,12 @@ Combining HTML Hypermedia APIs and Adaptive Web Design
 Thoughts, issues and ideas on combining HTML Hypermedia APIs and Adaptive Web Design. Possibly, in the future, also code examples.
 
 NB. I will happily add collaborators and/or pull requests.
+
 NB2. Let's start with having everything in the README and when structure is found we refactor.
 
+Answers to common objections against using HTML as the media type for your API is found here: http://codeartisan.blogspot.se/2012/07/using-html-as-media-type-for-your-api.html
 
-Flow
+Different flow for humans and machines
 -------
 There seems to be some differences in how the application flow (with regards to writing data) can be handled for users and API clients.
 
