@@ -18,10 +18,12 @@ Here, another option is to take advantage of the different contexts. For example
 Different flow for humans and machines
 -------
 There seems to be some differences in how the application flow (with regards to writing data) can be handled for users and API clients. One problem seems to be the refresh button: either we:
+
 1.  return a confirmation message to the user (with proper status code). In that case, the user will be less surprised of the "Send again?" dialog.
 2.  return the resource (entity, list, etc), but then if the page is refreshed, a dialog will be shown.
 
 I think that a pure (2) should be avoided. Instead, one of the following alternatives per use case could be chosen from:
+
 1.  Use another form of redirect that most browsers would understand, i.e. <meta>-redirect or JavaScript redirect.
 2.  Use a component that does redirects (given an argument for each use case) if in the browser context (see above, we can use www. and api. for different contexts) TODO: develop prototype for this 
 3.  Split the use case into one part for browsers and one for API clients
