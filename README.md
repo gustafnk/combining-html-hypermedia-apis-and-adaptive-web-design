@@ -30,7 +30,7 @@ I think that a pure (2) should be avoided. Instead, one of the following alterna
 
 All of these solutions would return proper status codes and still allow good flow for browser users.
 
-Usage of non-semantic CSS grids, i.e. Twitter Bootstrap
+Usage of non-semantic CSS, i.e. Twitter Bootstrap
 -------------------------------------------------------
 It's not good to clutter down your HTML with non-semantic classes. Instead, use a framework that allows for semantic grids. I think that http://compass-style.org has support for this.
 
