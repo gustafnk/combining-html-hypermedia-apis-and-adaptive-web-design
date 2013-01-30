@@ -24,9 +24,9 @@ There seems to be some differences in how the application flow (with regards to 
 
 I think that a pure (2) should be avoided. Instead, one of the following alternatives per use case could be chosen from:
 
-1.  Use another form of redirect that most browsers would understand, i.e. <meta>-redirect or JavaScript redirect.
-2.  Use a component that does redirects (given an argument for each use case) if in the browser context (see above, we can use www. and api. for different contexts) TODO: develop prototype for this 
-3.  Split the use case into one part for browsers and one for API clients
+1.  Use another form of redirect that most browsers would understand, i.e. <meta>-redirect or JavaScript redirect. This is not a good alternative IMO.
+2.  Use a component that does redirects (given an argument for each use case) if in the browser context (see above, we can use www. and api. for different contexts). This is my favorite at the moment. See https://github.com/gustafnk/RestBugs/blob/master/RestBugs-Node/app.js 
+3.  Split the use case into one part for browsers and one for API clients.
 
 All of these solutions would return proper status codes and still allow good flow for browser users.
 
