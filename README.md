@@ -22,13 +22,15 @@ There seems to be some differences in how the application flow (with regards to 
 1.  return a confirmation message to the user (with proper status code). In that case, the user will be less surprised of the "Send again?" dialog.
 2.  return the resource (entity, list, etc), but then if the page is refreshed, a dialog will be shown.
 
-I think that a pure (2) should be avoided. Instead, one of the following alternatives per use case could be chosen from:
+I think that a pure (2) should be avoided. Instead, we can use server side code that does redirects )or not) depending on if the code is run in a browser context. How to detect "browser context" is up to the implementation, but I see these options at the moment:
 
-1.  Use another form of redirect that most browsers would understand, i.e. <meta>-redirect or JavaScript redirect. This is not a good alternative IMO.
-2.  Use a component that does redirects (given an argument for each use case) if in the browser context (see above, we can use www. and api. for different contexts). This is my favorite at the moment.
-3.  Split the use case into one part for browsers and one for API clients.
+1. Duplicated DNS entries pointing to the same IP (www., api.). Server code detects host name and act accordingly.
+2. Separate running instances of the same code. Server code detects host name and/or port.
+3. Build configuration, writing to a constant in the code. Deployed as separate instances. Detect constant.
+4. Content negotiation. Would be hard to browse the API for a developer.
+ 
+An example of (2) can be found here: https://github.com/gustafnk/RestBugs
 
-All of these solutions would return proper status codes and still allow good flow for browser users.
 
 Usage of non-semantic CSS, i.e. Twitter Bootstrap
 -------------------------------------------------------
