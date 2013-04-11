@@ -45,6 +45,7 @@ Here are some I've found:
  - iOS: Not any known libraries.. (?)
  - Ruby: https://www.engineyard.com/blog/2010/getting-started-with-nokogiri/
  - node: https://github.com/MatthewMueller/cheerio
+ - lua: https://github.com/wscherphof/lua-htmlparser
 
 Resouces
 --------
