@@ -5,7 +5,7 @@ Thoughts, issues and ideas on combining HTML Hypermedia APIs and Adaptive Web De
 Answers to common objections against using HTML as the media type for your API is found here: http://codeartisan.blogspot.se/2012/07/using-html-as-media-type-for-your-api.html
 
 
-Use two different URLs for www and API
+Use two different URLs for web and API
 -------
 Since you might want to split the solution in the future, more whatever reason, it's good to create such an option right from the start. The simplest way seems to be to have a duplicated DNS entry, pointing to the same IP.
 
