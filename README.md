@@ -25,8 +25,11 @@ Headless browser support and/or scrapers
 ------------------------
  - JavaScript: http://phantomjs.org/
  - Ruby: http://mechanize.rubyforge.org/
- - 
+ - TODO Add more :)
 
+Here is a longer list: https://gist.github.com/evandrix/3694955
+
+However, a headless browser doesn't need to be able to have client JavaScript support in able to use the API.
 
 
 Client library support for HTML
@@ -40,7 +43,7 @@ Here are some I've found:
  - node: https://github.com/MatthewMueller/cheerio
  - lua: https://github.com/wscherphof/lua-htmlparser
 
-The story of HTML API support for iOS is lagging behind, I think. You can use libxml2 - good blog post here http://www.cocoawithlove.com/2008/10/using-libxml2-for-parsing-and-xpath.html (found on http://stackoverflow.com/questions/3541615/whats-the-best-approach-for-parsing-xml-screen-scraping-in-ios-uiwebview-or)
+It seems that HTML API support for iOS is lagging behind. You can use libxml2 - good blog post here http://www.cocoawithlove.com/2008/10/using-libxml2-for-parsing-and-xpath.html (found on http://stackoverflow.com/questions/3541615/whats-the-best-approach-for-parsing-xml-screen-scraping-in-ios-uiwebview-or)
 The idea of using a UIWebview to access an HTML API actually doesn't seem that bad, if you have implemented the optimization 
 
 Resouces
