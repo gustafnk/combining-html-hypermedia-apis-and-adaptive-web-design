@@ -45,5 +45,7 @@ Here are some I've found:
 
 Resouces
 --------
-http://www.jayway.com/2012/08/01/combining-html-hypermedia-apis-and-adaptive-web-design/ (lots of links here)
-http://www.slideshare.net/GustafKotte/surviving-the-zombie-apocalpyse-of-connected-devices
+Blog post: http://www.jayway.com/2012/08/01/combining-html-hypermedia-apis-and-adaptive-web-design/ (lots of links here)
+Video of presentation: http://www.youtube.com/watch?v=YCjaOrIhYGg
+Slides: http://www.slideshare.net/GustafKotte/html-hypermedia-apis-and-adaptive-web-design-nordic-apis
+
