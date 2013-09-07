@@ -32,10 +32,6 @@ I think that a pure (2) should be avoided. Instead, we can use server side code 
 An example of (2) can be found here: https://github.com/gustafnk/RestBugs
 
 
-Usage of non-semantic CSS, i.e. Twitter Bootstrap
--------------------------------------------------------
-It's not good to clutter down your HTML with non-semantic classes. Instead, use a framework that allows for semantic grids. I think that http://compass-style.org has support for this.
-
 Client support for HTML
 -----------------------
 There are several HTML parser for all possible application platforms out there. I think that parsers with CSS3 syntax (or, think jQuery selector).
